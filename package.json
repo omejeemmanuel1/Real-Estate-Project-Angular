@@ -1,0 +1,12 @@
+{
+  "name": "real-estate-management",
+  "version": "1.0.0",
+  "description": "A online property management solution for real estate and physical property management. This can include residential, commercial, and land real estate. a software developed to connect property managers and potential buyers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
