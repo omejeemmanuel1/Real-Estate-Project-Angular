@@ -5,7 +5,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    docker.withRegistry('https://registry.example.com', 'cd252021-6408-4797-94a4-f2580fd093b8') {
+                    docker.withRegistry('https://registry.hub.docker.com', 'cd252021-6408-4797-94a4-f2580fd093b8') {
                         def customImage = docker.build("omejeemmanuel1/angular-app:${env.BUILD_NUMBER}")
                     }
                 }
