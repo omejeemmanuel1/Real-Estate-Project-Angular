@@ -13,7 +13,7 @@ pipeline {
     stage('Run Docker Container') {
       steps {
         script {
-          docker.image("omejeemmanuel1/angular-app:${env.BUILD_NUMBER}").withRun('-p 8080:80') {
+          docker.image("omejeemmanuel1/angular-app:${env.BUILD_NUMBER}").withRun('-p 8085:80') {
             // Additional steps to run tests, deploy, etc.
           }
         }
