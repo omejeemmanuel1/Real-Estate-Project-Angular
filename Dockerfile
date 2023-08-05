@@ -8,4 +8,4 @@ RUN npm install
 
 COPY . .
 
-RUN ng serve
+RUN npm run build --prod
